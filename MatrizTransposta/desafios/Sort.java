@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Sort {
     public static void main(String[] args){
-        int []v = gerarVetor(10);
+        int []v = gerarVetor(5);
         selectionSort(v);
         System.out.println(Arrays.toString(v));
 
