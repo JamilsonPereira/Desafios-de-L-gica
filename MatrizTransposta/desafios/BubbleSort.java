@@ -1,9 +1,12 @@
-package MatrizTransposta;
+package MatrizTransposta.desafios;
+
+import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args){
         int[]v = {55,35,45,70};
-
+        bolha(v);
+        System.out.println(Arrays.toString(v));
     }
     private static void bolha(int[] v){
         for(int ultimo = v.length-1; ultimo > 0; ultimo--){
